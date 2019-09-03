@@ -58,3 +58,5 @@ letsencrypt_directory: "https://acme-v02.api.letsencrypt.org/directory"
 storage_nfs: false
 storage_nfs_path_prefix: '/var/lib/libvirt/images'
 storage_nfs_target_namespace: openshift-nfs-provisioner
+
+install_ocs: true
